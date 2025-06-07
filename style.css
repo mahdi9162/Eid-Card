@@ -78,3 +78,26 @@ p {
             0 0 30px rgba(255, 200, 0, 0.3);
     }
 }
+
+.signature {
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #4267B2;
+    /* Facebook Blue */
+    font-size: 24px;
+    margin: 5px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.social-link:hover {
+    color: #2d4373;
+    transform: scale(1.2);
+}
